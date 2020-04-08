@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.0.5)
+  - HandyJSON (5.0.1)
+  - Kingfisher (5.13.3):
+    - Kingfisher/Core (= 5.13.3)
+  - Kingfisher/Core (5.13.3)
+  - MGJRouter_Swift (0.1.2)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON (~> 5.0.1)
+  - Kingfisher
+  - MGJRouter_Swift
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+    - MGJRouter_Swift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Kingfisher: d2b3d6a7200c93b34de9afcdf25c8dd9282ec277
+  MGJRouter_Swift: ae89cc7c4c82618b636cc9c7b15636e516080d3c
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 7daf793a48024ed23358aec7831113aad2ec3ef9
+
+COCOAPODS: 1.5.3
