@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64DF8F8D243D7E5D00303E03 /* HDNetConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F8C243D7E5D00303E03 /* HDNetConst.swift */; };
+		64DF8F8F243DA2F800303E03 /* HDDiscoverNetUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F8E243DA2F800303E03 /* HDDiscoverNetUrl.swift */; };
+		64DF8F96243DA5D500303E03 /* HDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */; };
+		64DF8F98243DA5E900303E03 /* HDBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F97243DA5E900303E03 /* HDBaseModel.swift */; };
+		64DF8F9A243DB62700303E03 /* HDDiscoverLunBoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F99243DB62700303E03 /* HDDiscoverLunBoModel.swift */; };
+		64DF8F9C243DB95B00303E03 /* HDDiscoverNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F9B243DB95B00303E03 /* HDDiscoverNetworkTools.swift */; };
+		64DF8F9E243DDEE800303E03 /* HDDiscoverHomeInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F9D243DDEE800303E03 /* HDDiscoverHomeInfoModel.swift */; };
 		653BF14D26B70D7AC5E3A220 /* Pods_yanxishe_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C703BE4DFB7259097D13CFE0 /* Pods_yanxishe_swift.framework */; };
 		9B1E9F5624382CDE00895049 /* HDPurchasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E9F5524382CDE00895049 /* HDPurchasedViewController.swift */; };
 		9B1E9F5924382D0100895049 /* HDExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E9F5824382D0100895049 /* HDExerciseViewController.swift */; };
@@ -25,6 +32,13 @@
 
 /* Begin PBXFileReference section */
 		20236FD22B47730B8F710A21 /* Pods-yanxishe-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanxishe-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanxishe-swift/Pods-yanxishe-swift.release.xcconfig"; sourceTree = "<group>"; };
+		64DF8F8C243D7E5D00303E03 /* HDNetConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetConst.swift; sourceTree = "<group>"; };
+		64DF8F8E243DA2F800303E03 /* HDDiscoverNetUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverNetUrl.swift; sourceTree = "<group>"; };
+		64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDBaseViewController.swift; sourceTree = "<group>"; };
+		64DF8F97243DA5E900303E03 /* HDBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDBaseModel.swift; sourceTree = "<group>"; };
+		64DF8F99243DB62700303E03 /* HDDiscoverLunBoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverLunBoModel.swift; sourceTree = "<group>"; };
+		64DF8F9B243DB95B00303E03 /* HDDiscoverNetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverNetworkTools.swift; sourceTree = "<group>"; };
+		64DF8F9D243DDEE800303E03 /* HDDiscoverHomeInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverHomeInfoModel.swift; sourceTree = "<group>"; };
 		83EC71AE2ACEC10FD6D22006 /* Pods-yanxishe-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanxishe-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanxishe-swift/Pods-yanxishe-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		9B1E9F5524382CDE00895049 /* HDPurchasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDPurchasedViewController.swift; sourceTree = "<group>"; };
 		9B1E9F5824382D0100895049 /* HDExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDExerciseViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +79,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		64DF8F90243DA4A700303E03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64DF8F99243DB62700303E03 /* HDDiscoverLunBoModel.swift */,
+				64DF8F9D243DDEE800303E03 /* HDDiscoverHomeInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64DF8F91243DA4A700303E03 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B23521D24376498001FBA46 /* HDDiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64DF8F92243DA4A700303E03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64DF8F93243DA4A800303E03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64DF8F8E243DA2F800303E03 /* HDDiscoverNetUrl.swift */,
+				64DF8F9B243DB95B00303E03 /* HDDiscoverNetworkTools.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64DF8F94243DA5B100303E03 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */,
+				64DF8F97243DA5E900303E03 /* HDBaseModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		9B1E9F5424382C1300895049 /* Purchase(购买) */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				9B1E9F64243834BF00895049 /* HDSizeConst.swift */,
+				64DF8F8C243D7E5D00303E03 /* HDNetConst.swift */,
 			);
 			path = "Const(常量)";
 			sourceTree = "<group>";
@@ -133,6 +190,7 @@
 				9B1E9F5424382C1300895049 /* Purchase(购买) */,
 				9B1E9F5724382CF100895049 /* Exercise(练习) */,
 				9B1E9F5A24382D1B00895049 /* Main(我的) */,
+				64DF8F94243DA5B100303E03 /* Base */,
 				9B1E9F6624383B1400895049 /* Extension(扩展） */,
 				9B1E9F632438347800895049 /* Const(常量) */,
 			);
@@ -155,7 +213,10 @@
 		9B23521C2437644A001FBA46 /* Discover(发现) */ = {
 			isa = PBXGroup;
 			children = (
-				9B23521D24376498001FBA46 /* HDDiscoverViewController.swift */,
+				64DF8F93243DA4A800303E03 /* ViewModel */,
+				64DF8F91243DA4A700303E03 /* Controller */,
+				64DF8F90243DA4A700303E03 /* Model */,
+				64DF8F92243DA4A700303E03 /* View */,
 			);
 			path = "Discover(发现)";
 			sourceTree = "<group>";
@@ -289,16 +350,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1E9F5924382D0100895049 /* HDExerciseViewController.swift in Sources */,
+				64DF8F9E243DDEE800303E03 /* HDDiscoverHomeInfoModel.swift in Sources */,
+				64DF8F9A243DB62700303E03 /* HDDiscoverLunBoModel.swift in Sources */,
 				9B1E9F6824383BCC00895049 /* HDColorExtension.swift in Sources */,
+				64DF8F98243DA5E900303E03 /* HDBaseModel.swift in Sources */,
 				9B23520824376421001FBA46 /* HDAppDelegate.swift in Sources */,
+				64DF8F8F243DA2F800303E03 /* HDDiscoverNetUrl.swift in Sources */,
 				9B1E9F65243834BF00895049 /* HDSizeConst.swift in Sources */,
 				9B23521E24376498001FBA46 /* HDDiscoverViewController.swift in Sources */,
+				64DF8F8D243D7E5D00303E03 /* HDNetConst.swift in Sources */,
 				9B1E9F5C24382D2B00895049 /* HDMainViewController.swift in Sources */,
+				64DF8F9C243DB95B00303E03 /* HDDiscoverNetworkTools.swift in Sources */,
 				9B1E9F6A24383EA200895049 /* HDViewExtension.swift in Sources */,
 				9B1E9F602438306900895049 /* HDTabBarController.swift in Sources */,
 				9B1E9F5E24382E0500895049 /* HDAppDelegateTool.swift in Sources */,
 				9B1E9F5624382CDE00895049 /* HDPurchasedViewController.swift in Sources */,
 				9B1E9F622438308A00895049 /* HDNavigationController.swift in Sources */,
+				64DF8F96243DA5D500303E03 /* HDBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

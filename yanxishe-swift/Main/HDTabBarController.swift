@@ -13,8 +13,15 @@ class HDTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        ///< 设置主要的颜色
         tabBar.tintColor = UIColor.HDColorD7AB70
         
+        ///< 添加4个tabbbar
+        self.addChildControllers()
+
+    }
+    
+    func addChildControllers() {
         self.addChildControllerForTabBar(vc: HDDiscoverViewController(), title: "发现", imageName: "tab_course")
         self.addChildControllerForTabBar(vc: HDPurchasedViewController(), title: "购买", imageName: "tab_purchased")
         self.addChildControllerForTabBar(vc: HDExerciseViewController(), title: "练习", imageName: "tab_execrise")

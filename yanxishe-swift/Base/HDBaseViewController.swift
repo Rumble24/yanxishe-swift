@@ -1,19 +1,20 @@
 //
-//  HDNavigationController.swift
+//  HDBaseViewController.swift
 //  yanxishe-swift
 //
-//  Created by rumble on 2020/4/4.
+//  Created by 王景伟 on 2020/4/8.
 //  Copyright © 2020 rumble. All rights reserved.
 //
 
 import UIKit
 
-class HDNavigationController: UINavigationController {
+class HDBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-
+    
+    
 
 }
