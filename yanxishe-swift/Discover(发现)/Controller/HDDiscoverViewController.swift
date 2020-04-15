@@ -15,6 +15,7 @@ class HDDiscoverViewController: UIViewController {
         
         view.backgroundColor = UIColor.red
         
+        
     }
     
 

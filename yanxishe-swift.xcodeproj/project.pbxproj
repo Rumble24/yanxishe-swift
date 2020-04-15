@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6483D00F2446EBF600BB377C /* HDCourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D00E2446EBF600BB377C /* HDCourseModel.swift */; };
+		6483D0112446EEA100BB377C /* HDDiscoverHomeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0102446EEA100BB377C /* HDDiscoverHomeItemModel.swift */; };
+		6483D0132446F0EC00BB377C /* HDDiscoverHomeDisplayDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0122446F0EC00BB377C /* HDDiscoverHomeDisplayDataModel.swift */; };
+		6483D0152446F23B00BB377C /* HDDiscoverHomeSkuListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0142446F23B00BB377C /* HDDiscoverHomeSkuListModel.swift */; };
+		6483D0172446F37F00BB377C /* HDDiscoverHomeInviteInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0162446F37F00BB377C /* HDDiscoverHomeInviteInfoModel.swift */; };
+		6483D0192446F3DA00BB377C /* HDDiscoverHomeGoodsItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0182446F3DA00BB377C /* HDDiscoverHomeGoodsItemModel.swift */; };
+		6483D01B2446F56300BB377C /* HDDiscoverHomeImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D01A2446F56300BB377C /* HDDiscoverHomeImageDataModel.swift */; };
+		6483D01D2446F64E00BB377C /* HDDiscoverHomeTitleInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D01C2446F64E00BB377C /* HDDiscoverHomeTitleInfoModel.swift */; };
+		6483D0212446F96B00BB377C /* HDCourseLeftRightInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0202446F96B00BB377C /* HDCourseLeftRightInfoModel.swift */; };
+		6483D0232446F9B600BB377C /* HDTagListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0222446F9B600BB377C /* HDTagListModel.swift */; };
+		6483D0262446FB2200BB377C /* HDCommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0252446FB2200BB377C /* HDCommonMethods.swift */; };
+		6483D0282446FD4300BB377C /* HDStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0272446FD4300BB377C /* HDStringExtension.swift */; };
 		64DF8F8D243D7E5D00303E03 /* HDNetConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F8C243D7E5D00303E03 /* HDNetConst.swift */; };
 		64DF8F8F243DA2F800303E03 /* HDDiscoverNetUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F8E243DA2F800303E03 /* HDDiscoverNetUrl.swift */; };
 		64DF8F96243DA5D500303E03 /* HDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */; };
@@ -32,6 +44,18 @@
 
 /* Begin PBXFileReference section */
 		20236FD22B47730B8F710A21 /* Pods-yanxishe-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanxishe-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanxishe-swift/Pods-yanxishe-swift.release.xcconfig"; sourceTree = "<group>"; };
+		6483D00E2446EBF600BB377C /* HDCourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCourseModel.swift; sourceTree = "<group>"; };
+		6483D0102446EEA100BB377C /* HDDiscoverHomeItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverHomeItemModel.swift; sourceTree = "<group>"; };
+		6483D0122446F0EC00BB377C /* HDDiscoverHomeDisplayDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverHomeDisplayDataModel.swift; sourceTree = "<group>"; };
+		6483D0142446F23B00BB377C /* HDDiscoverHomeSkuListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverHomeSkuListModel.swift; sourceTree = "<group>"; };
+		6483D0162446F37F00BB377C /* HDDiscoverHomeInviteInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverHomeInviteInfoModel.swift; sourceTree = "<group>"; };
+		6483D0182446F3DA00BB377C /* HDDiscoverHomeGoodsItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverHomeGoodsItemModel.swift; sourceTree = "<group>"; };
+		6483D01A2446F56300BB377C /* HDDiscoverHomeImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverHomeImageDataModel.swift; sourceTree = "<group>"; };
+		6483D01C2446F64E00BB377C /* HDDiscoverHomeTitleInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverHomeTitleInfoModel.swift; sourceTree = "<group>"; };
+		6483D0202446F96B00BB377C /* HDCourseLeftRightInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCourseLeftRightInfoModel.swift; sourceTree = "<group>"; };
+		6483D0222446F9B600BB377C /* HDTagListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTagListModel.swift; sourceTree = "<group>"; };
+		6483D0252446FB2200BB377C /* HDCommonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDCommonMethods.swift; sourceTree = "<group>"; };
+		6483D0272446FD4300BB377C /* HDStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDStringExtension.swift; sourceTree = "<group>"; };
 		64DF8F8C243D7E5D00303E03 /* HDNetConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetConst.swift; sourceTree = "<group>"; };
 		64DF8F8E243DA2F800303E03 /* HDDiscoverNetUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverNetUrl.swift; sourceTree = "<group>"; };
 		64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDBaseViewController.swift; sourceTree = "<group>"; };
@@ -79,11 +103,45 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6483D00C2446EBB800BB377C /* Common(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				6483D0242446FB0100BB377C /* methods */,
+				6483D00D2446EBD700BB377C /* models */,
+			);
+			path = "Common(公共)";
+			sourceTree = "<group>";
+		};
+		6483D00D2446EBD700BB377C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6483D00E2446EBF600BB377C /* HDCourseModel.swift */,
+				6483D0202446F96B00BB377C /* HDCourseLeftRightInfoModel.swift */,
+				6483D0222446F9B600BB377C /* HDTagListModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6483D0242446FB0100BB377C /* methods */ = {
+			isa = PBXGroup;
+			children = (
+				6483D0252446FB2200BB377C /* HDCommonMethods.swift */,
+			);
+			path = methods;
+			sourceTree = "<group>";
+		};
 		64DF8F90243DA4A700303E03 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				64DF8F99243DB62700303E03 /* HDDiscoverLunBoModel.swift */,
 				64DF8F9D243DDEE800303E03 /* HDDiscoverHomeInfoModel.swift */,
+				6483D0102446EEA100BB377C /* HDDiscoverHomeItemModel.swift */,
+				6483D0122446F0EC00BB377C /* HDDiscoverHomeDisplayDataModel.swift */,
+				6483D0142446F23B00BB377C /* HDDiscoverHomeSkuListModel.swift */,
+				6483D0162446F37F00BB377C /* HDDiscoverHomeInviteInfoModel.swift */,
+				6483D0182446F3DA00BB377C /* HDDiscoverHomeGoodsItemModel.swift */,
+				6483D01A2446F56300BB377C /* HDDiscoverHomeImageDataModel.swift */,
+				6483D01C2446F64E00BB377C /* HDDiscoverHomeTitleInfoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,13 +170,13 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		64DF8F94243DA5B100303E03 /* Base */ = {
+		64DF8F94243DA5B100303E03 /* Base(基类) */ = {
 			isa = PBXGroup;
 			children = (
 				64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */,
 				64DF8F97243DA5E900303E03 /* HDBaseModel.swift */,
 			);
-			path = Base;
+			path = "Base(基类)";
 			sourceTree = "<group>";
 		};
 		9B1E9F5424382C1300895049 /* Purchase(购买) */ = {
@@ -159,6 +217,7 @@
 			children = (
 				9B1E9F6724383BCC00895049 /* HDColorExtension.swift */,
 				9B1E9F6924383EA200895049 /* HDViewExtension.swift */,
+				6483D0272446FD4300BB377C /* HDStringExtension.swift */,
 			);
 			path = "Extension(扩展）";
 			sourceTree = "<group>";
@@ -190,9 +249,10 @@
 				9B1E9F5424382C1300895049 /* Purchase(购买) */,
 				9B1E9F5724382CF100895049 /* Exercise(练习) */,
 				9B1E9F5A24382D1B00895049 /* Main(我的) */,
-				64DF8F94243DA5B100303E03 /* Base */,
+				64DF8F94243DA5B100303E03 /* Base(基类) */,
 				9B1E9F6624383B1400895049 /* Extension(扩展） */,
 				9B1E9F632438347800895049 /* Const(常量) */,
+				6483D00C2446EBB800BB377C /* Common(公共) */,
 			);
 			path = "yanxishe-swift";
 			sourceTree = "<group>";
@@ -350,11 +410,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1E9F5924382D0100895049 /* HDExerciseViewController.swift in Sources */,
+				6483D0192446F3DA00BB377C /* HDDiscoverHomeGoodsItemModel.swift in Sources */,
 				64DF8F9E243DDEE800303E03 /* HDDiscoverHomeInfoModel.swift in Sources */,
 				64DF8F9A243DB62700303E03 /* HDDiscoverLunBoModel.swift in Sources */,
 				9B1E9F6824383BCC00895049 /* HDColorExtension.swift in Sources */,
+				6483D01D2446F64E00BB377C /* HDDiscoverHomeTitleInfoModel.swift in Sources */,
 				64DF8F98243DA5E900303E03 /* HDBaseModel.swift in Sources */,
 				9B23520824376421001FBA46 /* HDAppDelegate.swift in Sources */,
+				6483D0282446FD4300BB377C /* HDStringExtension.swift in Sources */,
+				6483D0172446F37F00BB377C /* HDDiscoverHomeInviteInfoModel.swift in Sources */,
 				64DF8F8F243DA2F800303E03 /* HDDiscoverNetUrl.swift in Sources */,
 				9B1E9F65243834BF00895049 /* HDSizeConst.swift in Sources */,
 				9B23521E24376498001FBA46 /* HDDiscoverViewController.swift in Sources */,
@@ -362,10 +426,18 @@
 				9B1E9F5C24382D2B00895049 /* HDMainViewController.swift in Sources */,
 				64DF8F9C243DB95B00303E03 /* HDDiscoverNetworkTools.swift in Sources */,
 				9B1E9F6A24383EA200895049 /* HDViewExtension.swift in Sources */,
+				6483D0262446FB2200BB377C /* HDCommonMethods.swift in Sources */,
+				6483D0212446F96B00BB377C /* HDCourseLeftRightInfoModel.swift in Sources */,
 				9B1E9F602438306900895049 /* HDTabBarController.swift in Sources */,
 				9B1E9F5E24382E0500895049 /* HDAppDelegateTool.swift in Sources */,
 				9B1E9F5624382CDE00895049 /* HDPurchasedViewController.swift in Sources */,
+				6483D0152446F23B00BB377C /* HDDiscoverHomeSkuListModel.swift in Sources */,
+				6483D0112446EEA100BB377C /* HDDiscoverHomeItemModel.swift in Sources */,
+				6483D01B2446F56300BB377C /* HDDiscoverHomeImageDataModel.swift in Sources */,
 				9B1E9F622438308A00895049 /* HDNavigationController.swift in Sources */,
+				6483D0232446F9B600BB377C /* HDTagListModel.swift in Sources */,
+				6483D0132446F0EC00BB377C /* HDDiscoverHomeDisplayDataModel.swift in Sources */,
+				6483D00F2446EBF600BB377C /* HDCourseModel.swift in Sources */,
 				64DF8F96243DA5D500303E03 /* HDBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

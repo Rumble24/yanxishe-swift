@@ -31,6 +31,6 @@ class HDDiscoverLunBoModel: HDBaseModel {
     /// 映射
     override func mapping(mapper: HelpingMapper) {
         super.mapping(mapper: mapper)
-        mapper <<< self.lunboList <-- "carousel_list"
+        mapper <<< self.lunboList <-- "data.carousel_list"
     }
 }
