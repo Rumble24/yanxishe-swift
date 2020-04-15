@@ -15,7 +15,10 @@ class HDAppDelegateTool: NSObject {
     /// 返回主控制器
     func chooseRootViewControllerWithOptions(_ launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> UIViewController {
         
-        return HDTabBarController.init()
+        let userData = UserDefaults.standard.dictionary(forKey: HDUserData)
+        let userModel:HDUserModel = HDUserModel.deserialize(from: userData) ?? HDUserModel()
+        
+        return (userModel.uid != nil) ? HDTabBarController() : HDLoginController()
     }
 
 }
