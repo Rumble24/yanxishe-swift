@@ -9,14 +9,7 @@
 import UIKit
 
 extension UIColor {
-    
-    static let HDColorD7AB70: UIColor = UIColor.init(hexString: "#dab077") ?? UIColor.black
-
-    
-}
-
-extension UIColor {
-    
+        
     public convenience init?(hexString: String, alpha: CGFloat = 1.0) {
         var formatted = hexString.replacingOccurrences(of: "0x", with: "")
         formatted = formatted.replacingOccurrences(of: "#", with: "")
@@ -29,5 +22,5 @@ extension UIColor {
         }
     }
     
-    
+
 }

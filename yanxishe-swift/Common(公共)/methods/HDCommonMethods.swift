@@ -10,14 +10,16 @@ import UIKit
 
 class HDCommonMethods: NSObject {
 
-    class func getWidth(str:String,fontSize:CGFloat) -> (CGFloat) {
+    class func getWidth(str:String,fontSize:CGFloat) -> CGFloat
+    {
         let font = UIFont.systemFont(ofSize: fontSize)
         let rect = NSString(string: str).boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: CGFloat(MAXFLOAT)), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: font], context: nil)
         return ceil(rect.width)
     }
 
 
-    class func getHeight(str:String,width:CGFloat,fontSize:CGFloat) -> (CGFloat) {
+    class func getHeight(str:String,width:CGFloat,fontSize:CGFloat) -> CGFloat
+    {
         let font = UIFont.systemFont(ofSize: fontSize)
         let rect = NSString(string: str).boundingRect(with: CGSize(width: width, height: CGFloat(MAXFLOAT)), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: font], context: nil)
         return ceil(rect.width)

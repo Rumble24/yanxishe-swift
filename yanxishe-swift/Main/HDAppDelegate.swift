@@ -15,10 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        HDAppDelegateTool.setupAppearance()
+        
         window = UIWindow.init(frame: UIScreen.main.bounds)
-        window?.backgroundColor = UIColor.white;
-        window?.rootViewController = HDAppDelegateTool.sharedInstance.chooseRootViewControllerWithOptions(launchOptions)
-        window?.makeKeyAndVisible()
+        HDAppDelegateTool.setUpWindow(window!, launchOptions)
+        
         
         return true
     }

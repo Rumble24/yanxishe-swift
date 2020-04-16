@@ -32,6 +32,13 @@
 		6483D04424470FF100BB377C /* HDLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D04324470FF100BB377C /* HDLoginController.swift */; };
 		6483D04924471E9300BB377C /* HDStringConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D04824471E9300BB377C /* HDStringConst.swift */; };
 		6483D04B2447203700BB377C /* HDUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D04A2447203700BB377C /* HDUserModel.swift */; };
+		6483D04D2447FD3600BB377C /* HDFontConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D04C2447FD3600BB377C /* HDFontConst.swift */; };
+		6483D04F2447FEEB00BB377C /* HDColorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D04E2447FEEB00BB377C /* HDColorConst.swift */; };
+		6483D0512448005700BB377C /* HDWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0502448005700BB377C /* HDWidget.swift */; };
+		6483D05224480D5D00BB377C /* login.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6483D0462447103D00BB377C /* login.mp4 */; };
+		6483D05424482F3C00BB377C /* HDPhoneLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D05324482F3C00BB377C /* HDPhoneLoginController.swift */; };
+		6483D0562448362400BB377C /* HDHideNavigationVC.json in Resources */ = {isa = PBXBuildFile; fileRef = 6483D0552448362300BB377C /* HDHideNavigationVC.json */; };
+		6483D0582448377100BB377C /* HDControllerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483D0572448377100BB377C /* HDControllerTool.swift */; };
 		64DF8F8D243D7E5D00303E03 /* HDNetConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F8C243D7E5D00303E03 /* HDNetConst.swift */; };
 		64DF8F8F243DA2F800303E03 /* HDDiscoverNetUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F8E243DA2F800303E03 /* HDDiscoverNetUrl.swift */; };
 		64DF8F96243DA5D500303E03 /* HDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */; };
@@ -84,6 +91,12 @@
 		6483D0472447195000BB377C /* PrefixHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixHeader.swift; sourceTree = "<group>"; };
 		6483D04824471E9300BB377C /* HDStringConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDStringConst.swift; sourceTree = "<group>"; };
 		6483D04A2447203700BB377C /* HDUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDUserModel.swift; sourceTree = "<group>"; };
+		6483D04C2447FD3600BB377C /* HDFontConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDFontConst.swift; sourceTree = "<group>"; };
+		6483D04E2447FEEB00BB377C /* HDColorConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDColorConst.swift; sourceTree = "<group>"; };
+		6483D0502448005700BB377C /* HDWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDWidget.swift; sourceTree = "<group>"; };
+		6483D05324482F3C00BB377C /* HDPhoneLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDPhoneLoginController.swift; sourceTree = "<group>"; };
+		6483D0552448362300BB377C /* HDHideNavigationVC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HDHideNavigationVC.json; sourceTree = "<group>"; };
+		6483D0572448377100BB377C /* HDControllerTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDControllerTool.swift; sourceTree = "<group>"; };
 		64DF8F8C243D7E5D00303E03 /* HDNetConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetConst.swift; sourceTree = "<group>"; };
 		64DF8F8E243DA2F800303E03 /* HDDiscoverNetUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDDiscoverNetUrl.swift; sourceTree = "<group>"; };
 		64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDBaseViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				6483D0252446FB2200BB377C /* HDCommonMethods.swift */,
+				6483D0502448005700BB377C /* HDWidget.swift */,
 			);
 			path = methods;
 			sourceTree = "<group>";
@@ -182,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				6483D04324470FF100BB377C /* HDLoginController.swift */,
+				6483D05324482F3C00BB377C /* HDPhoneLoginController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +211,7 @@
 		6483D04524470FF900BB377C /* Resource(资源) */ = {
 			isa = PBXGroup;
 			children = (
+				6483D0552448362300BB377C /* HDHideNavigationVC.json */,
 				6483D0462447103D00BB377C /* login.mp4 */,
 			);
 			path = "Resource(资源)";
@@ -254,6 +270,7 @@
 			children = (
 				64DF8F95243DA5D500303E03 /* HDBaseViewController.swift */,
 				64DF8F97243DA5E900303E03 /* HDBaseModel.swift */,
+				6483D0572448377100BB377C /* HDControllerTool.swift */,
 			);
 			path = "Base(基类)";
 			sourceTree = "<group>";
@@ -288,6 +305,8 @@
 				9B1E9F64243834BF00895049 /* HDSizeConst.swift */,
 				64DF8F8C243D7E5D00303E03 /* HDNetConst.swift */,
 				6483D04824471E9300BB377C /* HDStringConst.swift */,
+				6483D04C2447FD3600BB377C /* HDFontConst.swift */,
+				6483D04E2447FEEB00BB377C /* HDColorConst.swift */,
 			);
 			path = "Const(常量)";
 			sourceTree = "<group>";
@@ -433,7 +452,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6483D05224480D5D00BB377C /* login.mp4 in Resources */,
 				9B23521424376421001FBA46 /* LaunchScreen.storyboard in Resources */,
+				6483D0562448362400BB377C /* HDHideNavigationVC.json in Resources */,
 				9B23521124376421001FBA46 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,18 +526,23 @@
 				6483D02A2447039300BB377C /* HDDiscoverHomeBespeakInfoModel.swift in Sources */,
 				6483D0382447060D00BB377C /* HDDiscoverHomeDiscussTopicModel.swift in Sources */,
 				6483D0172446F37F00BB377C /* HDDiscoverHomeInviteInfoModel.swift in Sources */,
+				6483D04F2447FEEB00BB377C /* HDColorConst.swift in Sources */,
 				6483D032244705CA00BB377C /* HDDiscoverHomeSvideoItemModel.swift in Sources */,
+				6483D0582448377100BB377C /* HDControllerTool.swift in Sources */,
 				64DF8F8F243DA2F800303E03 /* HDDiscoverNetUrl.swift in Sources */,
 				9B1E9F65243834BF00895049 /* HDSizeConst.swift in Sources */,
 				9B23521E24376498001FBA46 /* HDDiscoverViewController.swift in Sources */,
 				64DF8F8D243D7E5D00303E03 /* HDNetConst.swift in Sources */,
+				6483D0512448005700BB377C /* HDWidget.swift in Sources */,
 				9B1E9F5C24382D2B00895049 /* HDMainViewController.swift in Sources */,
 				64DF8F9C243DB95B00303E03 /* HDDiscoverNetworkTools.swift in Sources */,
 				9B1E9F6A24383EA200895049 /* HDViewExtension.swift in Sources */,
 				6483D0262446FB2200BB377C /* HDCommonMethods.swift in Sources */,
+				6483D04D2447FD3600BB377C /* HDFontConst.swift in Sources */,
 				6483D04B2447203700BB377C /* HDUserModel.swift in Sources */,
 				6483D0212446F96B00BB377C /* HDCourseLeftRightInfoModel.swift in Sources */,
 				6483D034244705F900BB377C /* HDDiscoverHomeGoodsInfoModel.swift in Sources */,
+				6483D05424482F3C00BB377C /* HDPhoneLoginController.swift in Sources */,
 				6483D02C2447055800BB377C /* HDDiscoverHomeCourseLongInfoModel.swift in Sources */,
 				9B1E9F602438306900895049 /* HDTabBarController.swift in Sources */,
 				6483D02E2447057700BB377C /* HDDiscoverHomeSsliveItemModel.swift in Sources */,
@@ -672,7 +698,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5X5GVASQT;
 				INFOPLIST_FILE = "yanxishe-swift/Main/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -691,7 +719,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5X5GVASQT;
 				INFOPLIST_FILE = "yanxishe-swift/Main/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
